@@ -1,10 +1,10 @@
 # Site settings
-title:       Prachi Garg
-email:       prachigarg2398@gmail.com
-author:      Prachi Garg
-description: "Prachi Garg's personal academic website"
+title:       Alokendu Mazumder
+email:       alokendum@iisc.ac.in
+author:      Alokendu Mazumder
+description: "Alokendu Mazumder's personal academic website"
 baseurl:     ""
-url:         "http://prachigarg23.github.io"
+url:         "http://alokendumazumder.github.io"
 date_format: "%b %-d, %Y"
 
 # Google services
@@ -43,14 +43,14 @@ facebook_comments_number: 10
 
 # Social icons
 google_scholar_username: # g5Aj5_IAAAAJ&hl
-github_username: prachigarg23
+github_username: palokendumazumder
 bitbucket_username:
 stackoverflow_id:
-twitter_username: PrachiG68526104
+twitter_username: i_am_batman97
 skype_username:
 steam_nickname:
 google_plus_id: fa
-linkedin_username: prachi-garg-192276135
+linkedin_username: alokendu-alok-mazumder-778723192
 angellist_username:
 medium_id:
 bitcoin_url:
