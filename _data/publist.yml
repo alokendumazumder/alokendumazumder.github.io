@@ -1,129 +1,57 @@
-- title: 'ComposeAnything: Composite Object Priors for Text-to-Image Generation'
+- title: "On Convergence of ADAM with Data Dependent Stepsize"
   image: CA_teaser.png
-  description: ComposeAnything framework enables interpretable text-to-image generation for complex compositions involving surreal 2D, 3D spatial relationships and high object counts.
-  authors: <b>Zeeshan Khan</b>, <a href="https://cshizhe.github.io">Shizhe Chen</a>, <a href="https://cordeliaschmid.github.io">Cordelia Schmid</a> 
-  venue: <i> under review </i>
+  description: "We propose a data and dynamics driven constant stepsize for Adam that removes the need for costly tuning and avoids the pitfalls of decaying schedulers. Our estimate matches the best stepsizes found by exhaustive search, performs on par with popular schedulers, and scales to ImageNet and LLM fine-tuning. We further provide theory showing that Adam with our stepsize converges to critical points for smooth non-convex objectives"
+  authors: "<em><b>Alokendu Mazumder</b>, <b>RIshab Sabharwal</b>, <b>Bhartendu Kumar</b>, <b>Manan Tayal</b>, <b>Arnab Roy</b>, <b>Chirag Garg</b>, <a href=\"https://www.vistalabiisc.com/P_portfolio/profile\">Punit Rathore</a></em>"
+  venue: "<i> In IEEE Transactions of Artificial Intelligence (<b>IF: 6.7</b>), 2026 </i>"
   number_link: 3
   link1:
-    url: https://arxiv.org/abs/2505.24086
-    display: Paper
+    url: "https://arxiv.org/abs/2505.24086"
+    display: "Paper"
   link2:
-    url: https://zeeshank95.github.io/composeanything/ca.html
-    display: Project Page
+    url: "https://zeeshank95.github.io/composeanything/ca.html"
+    display: "Project Page"
   link3:
-    url: https://github.com/zeeshank95/ComposeAnything
-    display: Code (Github)
-    
+    url: "https://github.com/alokendumazumder/IEEE_TAI_ADAM_Convergence"
+    display: "Code (Github)"
 
-- title: 'VELOCITI: Can Video-Language Models Bind Semantic Concepts Through Time?'
+- title: "Fractional Gradient Descent with Matrix Stepsizes for Non-Convex Optimisation"
   image: velociti.png
-  description: We create a new benchmark to evaluate video VLMs both contrastive and LLM based. The tasks are designed to evaluate fine-grained compositional understanding abilities of VLMs. All of the open-source VLMs perform close to random. Gemini outperforms all but with a significant gap to human performance.
-  authors: Darshana Saravanan,  Darshan Singh, Varun Gupta, <b>Zeeshan Khan</b>, Vineet Gandhi, <a href="https://makarandtapaswi.github.io">Makarand Tapaswi</a>, 
-  venue: <i> In the Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2025</i>
+  description: "We establish convergence guarantees for fractional gradient descent on matrix-smooth non-convex functions and show how matrix smoothness accelerates convergence. We introduce Compressed Fractional Gradient Descent (CFGD) with matrix-valued stepsizes, proving faster convergence than scalar stepsizes in both single-node and distributed settings. This is the first work to study fractional gradient descent in federated/distributed optimisation."
+  authors: "<em>Alokendu Mazumder, Keshav Vyas, <a href=\"https://www.vistalabiisc.com/P_portfolio/profile\">Punit Rathore</a></em>"
+  venue: "<i> In IEEE Transactions of Neural Networks and learning Systems (<b>IF: 8.9</b>), 2025 </i>"
   number_link: 3
   link1:
-    url: https://arxiv.org/abs/2406.10889
-    display: Paper
+    url: "https://ieeexplore.ieee.org/document/11298544"
+    display: "Paper"
   link2:
-    url: https://katha-ai.github.io/projects/velociti/
-    display: Project Page
+    url: "https://katha-ai.github.io/projects/velociti/"
+    display: "Project Page"
   link3:
-    url: https://github.com/katha-ai/VELOCITI
-    display: Code (Github)
+    url: "https://github.com/alokendumazumder/IEEE_TNNLS_Compressed_fractional_GD"
+    display: "Code (Github)"
 
-
-- title: 'MICap: A Unified Model for Identity-aware Movie Descriptions'
+- title: "Learning Low Rank Latent Spaces With Simple Deterministic Autoencoders: Theoretical and Empirical Insights"
   image: micap.png
-  description: We design a single stage framework for Identity aware captioning of movie videos, we also propose a new captioning metric called <i>iSPICE</i>, that is sensitive to wrong identiities in captions.
-  authors: Haran Raajesh, Naveen Reddy Desanur, <b>Zeeshan Khan</b>, <a href="https://makarandtapaswi.github.io">Makarand Tapaswi</a>, 
-  venue: <i> In the Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>) 2024</i>
+  description: "Low-Rank Autoencoder (LoRAE) extends autoencoders with a low-rank regularizer to learn compact and implicit low-dimensional latent spaces. It achieves tighter theoretical error bounds and strong empirical performance in image generation and downstream classification. It even beats highly optimized GANs !"
+  authors: "<em>Alokendu Mazumder, Tirthajit Baruah*, Bhartendu Kumar*, Rishab Sharma, Vishwajeet Pattanaik, <a href=\"https://www.vistalabiisc.com/P_portfolio/profile\">Punit Rathore</a>,</em>"
+  venue: "<i> In the Winter Conference on Applications of Computer Vision (<b>WACV</b>), 2024</i>"
   number_link: 3
   link1:
-    url: https://openaccess.thecvf.com/content/CVPR2024/papers/Raajesh_MICap_A_Unified_Model_for_Identity-Aware_Movie_Descriptions_CVPR_2024_paper.pdf
-    display: Paper
+    url: "https://openaccess.thecvf.com/content/WACV2024/html/Mazumder_Learning_Low-Rank_Latent_Spaces_With_Simple_Deterministic_Autoencoder_Theoretical_and_WACV_2024_paper.html"
+    display: "Paper"
   link2:
-    url: https://katha-ai.github.io/projects/micap/
-    display: Project Page
+    url: "https://katha-ai.github.io/projects/micap/"
+    display: "Project Page"
   link3:
-    url: https://github.com/katha-ai/MovieIdentityCaptioner-CVPR2024
-    display: Code (Github)
+    url: "https://github.com/alokendumazumder/IEEE-CVF-WACV-2024-LoRAE"
+    display: "Code (Github)"
 
-
-- title: 'Grounded Video Situtation Recognition'
+- title: "Perceptual Quality Assessment of DIBR Synthesized Views Using Saliency Based Deep features"
   image: Neurips.jpg
-  description: We formulate a new structured framework for dense video understanding and propose a Transformer based model, VideoWhisperer that operates on a group of clips and jointly predicts all the salient actions, Semantic roles via captioning and, spatio temporal grounding in a weakly supervised setting
-  authors: <b>Zeeshan Khan</b>, <a href="https://faculty.iiit.ac.in/~jawahar/index.html">C.V. Jawahar</a>, <a href="https://makarandtapaswi.github.io">Makarand Tapaswi</a>
-  venue: <i>In Neural Information Processing Systems (<b>NeurIPS</b>), 2022</i>
-  number_link: 3
-  link1:
-    url: https://arxiv.org/abs/2210.10828
-    display: Paper
-  link2:
-    url: https://zeeshank95.github.io/grvidsitu
-    display: Project Page
-  link3:
-    url: https://zeeshank95.github.io/grvidsitu
-    display: Code (Github)
-
-- title: 'More Parameters No Thanks!'
-  image: ACL.png
-  description: We propose to recursively prune and retrain a Transformer to find language dependent submodules that involves 2 type of paramteres, 1)Shared multlingual and 2)Unique Language dependent parameters, to overcome negative interference in Multilingual Neural Machine translation. 
-  authors: <b>Zeeshan Khan</b>, Kartheek Akella, <a href="https://vinaypn.github.io"> Vinay Namboodiri</a>, and <a href="https://faculty.iiit.ac.in/~jawahar/index.html"> C.V. Jawahar </a>
-  venue: <i>In Association For Computational Linguistics (<b>ACL</b>) (Findings), 2021</i>
-  number_link: 3
-  link1:
-    url: https://aclanthology.org/2021.findings-acl.9/
-    display: Paper
-  link2:
-    url: http://cvit.iiit.ac.in/research/projects/cvit-projects/more-parameters-no-thanks
-    display: Project Page
-  link3:
-    url: https://github.com/zeeshank95/PF-Adaptation
-    display: Code (Github)
-
-
-- title: "DeepHS-HDRVideo : Deep High Speed High Dynamic Range Video Reconstruction"
-  image: HDR_video.png
-  description: This is the first attempt towards generating high speed high dynamic range videos from low speed low dynamic range videos. We use video frame interpolation to recursivrly generate the high and low exposure images missing in the input alternative exposure frames. The High and Low exposure frames are merged at each timestep to generate an HDR video.
-  authors: <b>Zeeshan Khan</b>, Parth Shettiwar, Mukul Khanna, <a href="https://people.iitgn.ac.in/~shanmuga/">Shanmuganathan Raman</a>
-  venue: <i>In International Conference on Pattern Recognition(<b>ICPR</b>), 2022 <span style="color:red;">(ORAL)</span></i>
-  number_link: 2
-  link1:
-    url: https://arxiv.org/abs/2210.04429
-    display: Paper
-  link2:
-    url: https://youtu.be/TWWv7fh0Slk
-    display: Video
-
-- title: Appearance Consistent Human Pose Transfer via Dynamic Feature Selection
-  image: Pose_transfer.png
-  description: We present a robut deep architecture for Appearance Consistent person image generation in novel poses. We incorporate a 3 stream network, for image, pose, and appearance. Additionaly we use Gated convolutions and, Non-local attention blocks for generating realistic images.
-  authors: Ashish Tiwari, <b>Zeeshan Khan</b>, <a href="https://people.iitgn.ac.in/~shanmuga/">Shanmuganathan Raman</a>
-  venue: <i>In International Conference on Pattern Recognition (<b>ICPR</b>), 2022</i>
+  description: "We propose an efficient no-training perceptual quality metric for DIBR synthesized views that exploits saliency-guided deep features extracted from a pretrained VGG-16 network. By focusing on perceptually important regions and fusing feature maps using cosine similarity, the method effectively captures geometric distortions and outperforms existing state-of-the-art QA metrics on standard benchmarks."
+  authors: "<em><b>Shubham Chaudhary</b>, <b>Alokendu Mazumder</b>, Deebha Mumtaz, <a href=\"https://sites.google.com/view/vinitjakhetiya/home\">Vinit Jakhetiya, Badri Subudhi</a></em>"
+  venue: "<i>In International Comference on Image Processing (<b>ICIP</b>), 2021</i>"
   number_link: 1
   link1:
-    url: https://zeeshank95.github.io/
-    display: Paper
-
-- title: Exploring Pair-Wise NMT for Indian Languages
-  image: ICON.png
-  description: We address the task of improving pair-wise machine translation for low resource Indian languages using a filtered back-translation process and subsequent fine-tuning on the limited pair-wise language corpora
-  authors: Kartheek Akella, Sai Himal Allu, Sridhar Suresh Ragupathi, Aman Singhal,<b>Zeeshan Khan</b>, <a href="https://vinaypn.github.io"> Vinay Namboodiri</a>, and <a href="https://faculty.iiit.ac.in/~jawahar/index.html"> C.V. Jawahar </a>
-  venue: <i>In International Conference on Natural Language Processing(<b>ICON</b>) 2020</i>
-  number_link: 1
-  link1:
-    url: https://aclanthology.org/2020.icon-main.59/
-    display: Paper
-
-- title: "FHDR: HDR Image Reconstruction from a Single LDR Image using Feedback Network"
-  image: HDR_img.png
-  description: Proposed a recurrent Feedback CNN for HDR image reconstruction from a single exposure LDR image, achieving SOTA results on all the HDR benchmarks. Designed a novel Dense Feedback Block using hidden states of RNN, to transfer the high-level information to the low-level features. LDR to HDR representations are learned in multiple iterations via feedback loops.
-  authors: <b>Zeeshan Khan</b>, Mukul khanna, and <a href="https://people.iitgn.ac.in/~shanmuga/">Prof. Shanmuganathan Raman</a>
-  venue: <i>In Global Conference on Signal and Information Processing (<b>GlobalSIP</b>) 2019 <span style="color:red;">(ORAL)</span></i> 
-  number_link: 2
-  link1:
-    url: https://arxiv.org/pdf/1912.11463.pdf
-    display: Paper    
-  link2:
-    url: https://github.com/mukulkhanna/FHDR
-    display: Code (Github)    
+    url: "https://ieeexplore.ieee.org/document/9506607"
+    display: "Paper"
