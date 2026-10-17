@@ -26,7 +26,13 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Open `http://localhost:4000/`. The included build-only GitHub Actions workflow can validate the Jekyll site and save a preview artifact; it does not deploy. This is a local comparison branch and has not been pushed or published.
+Open `http://localhost:4000/`.
+
+### GitHub Pages deployment
+
+Set **Settings → Pages → Build and deployment → Source** to **GitHub Actions**. The default "Deploy from a branch" builder uses a restricted Jekyll environment that does not load this site's required `jekyll-scholar` plugin and fails with `Unknown tag 'bibliography'`.
+
+The workflow in `.github/workflows/build.yml` installs the locked Ruby dependencies and ImageMagick, then runs the full production Jekyll build. Pushes to `master` upload the generated `_site` as a Pages artifact and deploy it to [alokendumazumder.github.io](https://alokendumazumder.github.io/). Pull requests only build and save a `website-preview` artifact. A manual run deploys only when run on `master`.
 
 ### Windows preview
 
