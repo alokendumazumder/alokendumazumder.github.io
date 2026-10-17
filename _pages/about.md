@@ -21,4 +21,10 @@ social: false
 <p>My broader interests span optimization theory, deep learning, computer vision, and stochastic modelling,
         with a focus on principled, theoretically grounded approaches to modern learning problems.</p>
 
-<div class="quote-box"><i class="fas fa-flask quote-watermark"></i><span class="quote-label">Research Interests</span><div class="quote-content"><p class="quote-text-hindi">Optimization theory · Deep representation learning · Computer vision · Stochastic modelling</p></div></div>
+<div class="quote-box">
+  <i class="fas fa-quote-left quote-watermark" aria-hidden="true"></i>
+  <span class="quote-label">Favourite Quote</span>
+  <div class="quote-content">
+    <p class="quote-text-hindi" lang="hi">“क्षमा शोभती उस भुजंग को जिसके पास गरल हो, उसको क्या जो दंतहीन विषरहित विनीत सरल हो।” <span class="quote-author">रामधारी सिंह दिनकर</span></p>
+  </div>
+</div>
