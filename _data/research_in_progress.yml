@@ -4,11 +4,5 @@
     "authors": "Alokendu Mazumder, Ayaan Mohd, Harshit Rawat, Arnab Roy, Mayank Baranwal, Punit Rathore",
     "status": "Draft",
     "area": "Theory"
-  },
-  {
-    "title": "LISA: Latent Inference on the Sphere for A-posteriori Sampling",
-    "authors": "Alokendu Mazumder, Chirag Garg, Tirthajit Baruah, Punit Rathore",
-    "status": "Under Review",
-    "area": "Deep Learning"
   }
 ]

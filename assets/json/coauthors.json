@@ -5,7 +5,7 @@
       "name": "Alokendu",
       "fullName": "Alokendu Mazumder",
       "type": "primary",
-      "papers": 10,
+      "papers": 11,
       "label": "Alokendu\nMazumder"
     },
     {
@@ -13,7 +13,7 @@
       "name": "Punit Rathore",
       "fullName": "Punit Rathore",
       "type": "frequent",
-      "papers": 8,
+      "papers": 9,
       "label": "Punit\nRathore"
     },
     {
@@ -21,7 +21,7 @@
       "name": "Tirthajit Baruah",
       "fullName": "Tirthajit Baruah",
       "type": "regular",
-      "papers": 3,
+      "papers": 4,
       "label": "Tirthajit\nBaruah"
     },
     {
@@ -45,7 +45,7 @@
       "name": "Chirag Garg",
       "fullName": "Chirag Garg",
       "type": "regular",
-      "papers": 2,
+      "papers": 3,
       "label": "Chirag\nGarg"
     },
     {
@@ -181,12 +181,12 @@
     {
       "source": "you",
       "target": "author-1",
-      "strength": 8
+      "strength": 9
     },
     {
       "source": "you",
       "target": "author-2",
-      "strength": 3
+      "strength": 4
     },
     {
       "source": "you",
@@ -201,7 +201,7 @@
     {
       "source": "you",
       "target": "author-5",
-      "strength": 2
+      "strength": 3
     },
     {
       "source": "you",
