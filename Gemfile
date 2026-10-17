@@ -18,10 +18,14 @@ group :jekyll_plugins do
     gem 'jekyll-toc'
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
-    gem 'mini_racer'
-    gem 'unicode_utils'
+    # MiniRacer does not support native Windows; ExecJS can use Node.js there.
+    gem 'mini_racer', platforms: :mri
+    # Load individual Unicode helpers only if needed, avoiding eager table loading.
+    gem 'unicode_utils', require: false
     gem 'webrick'
 end
+
+gem 'tzinfo-data', platforms: :windows
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'

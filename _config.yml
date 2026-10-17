@@ -78,7 +78,7 @@ telegram_username: # your Telegram user name
 scholar_userid: "N_kcD4cAAAAJ"
 semanticscholar_id: # your Semantic Scholar ID
 whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-orcid_id: ""
+orcid_id:
 medium_username: # your Medium username
 osf_id: # your OSF ID
 pinterest_id: # your pinterest id
@@ -93,7 +93,7 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: ""
+x_username:
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
@@ -263,6 +263,8 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false
+  # Sass already compresses the stylesheet; avoid a slow second CSS pass.
+  compress_css: false
   exclude: ["robots.txt", "assets/js/search/*.js", "assets/libs/**/*", '*.js']
   uglifier_args:
     harmony: true

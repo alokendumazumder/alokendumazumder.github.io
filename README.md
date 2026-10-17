@@ -19,7 +19,7 @@ The old PDF link (`/cv/alokendu_resume_CV.pdf`) returned HTTP 404 and no corresp
 
 ## Full Jekyll build
 
-Use Ruby 3.2, Bundler, and ImageMagick (as in the reference repository):
+Use Ruby 3.2, Bundler 2.5.7, and ImageMagick (as in the reference repository):
 
 ```sh
 bundle install
@@ -28,6 +28,25 @@ bundle exec jekyll serve
 
 Open `http://localhost:4000/`. The included build-only GitHub Actions workflow can validate the Jekyll site and save a preview artifact; it does not deploy. This is a local comparison branch and has not been pushed or published.
 
+### Windows preview
+
+Ruby+DevKit 3.2.11 is installed for the current user in `%USERPROFILE%\Ruby32-x64`, together with Bundler 2.5.7 and ImageMagick 7.1.2-18. The gems are installed in the ignored `vendor/bundle` directory, with local Bundler settings in `.bundle/config`.
+
+From PowerShell in this repository, start the actual Jekyll preview with:
+
+```powershell
+.\scripts\preview.ps1
+```
+
+The script adds Ruby and its ImageMagick directory to the process PATH and serves the site at `http://127.0.0.1:4000/`. Use `-Port 4001` to choose another port. Press Ctrl+C to stop it. A one-off production build can be run from a new Ruby-enabled terminal with Node.js available:
+
+```powershell
+$env:JEKYLL_ENV = 'production'
+ridk exec bundle exec jekyll build --trace
+```
+
+The Gemfile skips MiniRacer on native Windows, includes Windows timezone data, and avoids eagerly loading unused Unicode tables. Sass compresses the generated stylesheet; the redundant CSS minifier pass is disabled because it stalls on the theme's large stylesheet.
+
 ## Verification in this workspace
 
-YAML configuration, page front matter, and all 10 BibTeX entries were parsed successfully. The adapted research and collaborator JavaScript passes syntax checks. A separate static comparison preview uses the reference site's compiled CSS and the migrated content; its eight routes and internal assets were checked, along with light/dark mode, search, navigation, and both research visualizations. Ruby is unavailable in this Windows workspace, so the full Jekyll build has not been run here.
+The full production Jekyll build succeeds with Jekyll 4.3.4 and generates the stylesheet, responsive portrait images, bibliography, news, CV, teaching, projects, and research map. All eight main preview routes return HTTP 200, all internal page and asset paths resolve, and the generated publications page contains all 10 published entries. YAML configuration, front matter, BibTeX, and the adapted visualization JavaScript were also validated. The running preview serves Jekyll's generated output from `_site`.
