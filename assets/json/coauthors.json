@@ -1,0 +1,287 @@
+{
+  "nodes": [
+    {
+      "id": "you",
+      "name": "Alokendu",
+      "fullName": "Alokendu Mazumder",
+      "type": "primary",
+      "papers": 10,
+      "label": "Alokendu\nMazumder"
+    },
+    {
+      "id": "author-1",
+      "name": "Punit Rathore",
+      "fullName": "Punit Rathore",
+      "type": "frequent",
+      "papers": 8,
+      "label": "Punit\nRathore"
+    },
+    {
+      "id": "author-2",
+      "name": "Tirthajit Baruah",
+      "fullName": "Tirthajit Baruah",
+      "type": "regular",
+      "papers": 3,
+      "label": "Tirthajit\nBaruah"
+    },
+    {
+      "id": "author-3",
+      "name": "Arnab Roy",
+      "fullName": "Arnab Roy",
+      "type": "regular",
+      "papers": 2,
+      "label": "Arnab\nRoy"
+    },
+    {
+      "id": "author-4",
+      "name": "Bhartendu Kumar",
+      "fullName": "Bhartendu Kumar",
+      "type": "regular",
+      "papers": 2,
+      "label": "Bhartendu\nKumar"
+    },
+    {
+      "id": "author-5",
+      "name": "Chirag Garg",
+      "fullName": "Chirag Garg",
+      "type": "regular",
+      "papers": 2,
+      "label": "Chirag\nGarg"
+    },
+    {
+      "id": "author-6",
+      "name": "Vishwajeet Pattanaik",
+      "fullName": "Vishwajeet Pattanaik",
+      "type": "regular",
+      "papers": 2,
+      "label": "Vishwajeet\nPattanaik"
+    },
+    {
+      "id": "author-7",
+      "name": "Badri N. Subudhi",
+      "fullName": "Badri N. Subudhi",
+      "type": "regular",
+      "papers": 2,
+      "label": "Badri N.\nSubudhi"
+    },
+    {
+      "id": "author-8",
+      "name": "Ila Ananta",
+      "fullName": "Ila Ananta",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Ila\nAnanta"
+    },
+    {
+      "id": "author-9",
+      "name": "Rishabh Sabharwal",
+      "fullName": "Rishabh Sabharwal",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Rishabh\nSabharwal"
+    },
+    {
+      "id": "author-10",
+      "name": "Manan Tayal",
+      "fullName": "Manan Tayal",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Manan\nTayal"
+    },
+    {
+      "id": "author-11",
+      "name": "Keshav Vyas",
+      "fullName": "Keshav Vyas",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Keshav\nVyas"
+    },
+    {
+      "id": "author-12",
+      "name": "Rishab Sharma",
+      "fullName": "Rishab Sharma",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Rishab\nSharma"
+    },
+    {
+      "id": "author-13",
+      "name": "Shubham Chaudhary",
+      "fullName": "Shubham Chaudhary",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Shubham\nChaudhary"
+    },
+    {
+      "id": "author-14",
+      "name": "Deebha Mumtaz",
+      "fullName": "Deebha Mumtaz",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Deebha\nMumtaz"
+    },
+    {
+      "id": "author-15",
+      "name": "Vinit Jakhetiya",
+      "fullName": "Vinit Jakhetiya",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Vinit\nJakhetiya"
+    },
+    {
+      "id": "author-16",
+      "name": "Pious Pradhan",
+      "fullName": "Pious Pradhan",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Pious\nPradhan"
+    },
+    {
+      "id": "author-17",
+      "name": "Srimanta Mandal",
+      "fullName": "Srimanta Mandal",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Srimanta\nMandal"
+    },
+    {
+      "id": "author-18",
+      "name": "Yash Soni",
+      "fullName": "Yash Soni",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Yash\nSoni"
+    },
+    {
+      "id": "author-19",
+      "name": "Prashant Mishra",
+      "fullName": "Prashant Mishra",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Prashant\nMishra"
+    },
+    {
+      "id": "author-20",
+      "name": "Akash Kumar",
+      "fullName": "Akash Kumar",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Akash\nKumar"
+    },
+    {
+      "id": "author-21",
+      "name": "Pagadla Krishna Murthy",
+      "fullName": "Pagadla Krishna Murthy",
+      "type": "occasional",
+      "papers": 1,
+      "label": "Pagadla Krishna\nMurthy"
+    }
+  ],
+  "links": [
+    {
+      "source": "you",
+      "target": "author-1",
+      "strength": 8
+    },
+    {
+      "source": "you",
+      "target": "author-2",
+      "strength": 3
+    },
+    {
+      "source": "you",
+      "target": "author-3",
+      "strength": 2
+    },
+    {
+      "source": "you",
+      "target": "author-4",
+      "strength": 2
+    },
+    {
+      "source": "you",
+      "target": "author-5",
+      "strength": 2
+    },
+    {
+      "source": "you",
+      "target": "author-6",
+      "strength": 2
+    },
+    {
+      "source": "you",
+      "target": "author-7",
+      "strength": 2
+    },
+    {
+      "source": "you",
+      "target": "author-8",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-9",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-10",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-11",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-12",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-13",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-14",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-15",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-16",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-17",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-18",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-19",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-20",
+      "strength": 1
+    },
+    {
+      "source": "you",
+      "target": "author-21",
+      "strength": 1
+    }
+  ]
+}
