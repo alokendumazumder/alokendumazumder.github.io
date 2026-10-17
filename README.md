@@ -5,15 +5,15 @@ This branch copies the customized al-folio layouts, Sass, JavaScript, and build 
 ## Content
 
 - `_pages/about.md`: biography, current role, portrait, and contact details.
-- `_bibliography/papers.bib`: 10 published papers, including the 2026 TMLR papers.
-- `_data/research_in_progress.yml`: two distinct draft / under-review works. The repeated TD paper in the old draft section was already accepted and is listed once among the publications.
-- `_news/`: all 11 news items. The original dates only specified months, so dates display at month precision.
+- `_bibliography/papers.bib`: 11 published papers, including LISA (TMLR, September 2026).
+- `_data/research_in_progress.yml`: the remaining Adagrad draft. Accepted papers, including LISA, appear once among the publications.
+- `_news/`: 12 news items, including LISA's TMLR publication. The original dates only specified months, so dates display at month precision.
 - `_data/cv.yml`: education, experience, awards, and skills.
 - `_pages/teaching.md`: both courses and all six teaching sessions.
 - `_projects/`: the four code repositories linked on the original homepage.
 - `assets/json/coauthors.json`: collaborators from the publication author lists.
 
-The old site's stale Zeeshan Khan template files and the reference author's personal posts, photo, publications, analytics IDs, quote, social accounts, and CV have been omitted. No publication images were supplied on the current homepage, so the reference's venue badges are kept without unrelated thumbnails. The blog navigation item is omitted because the current site has no blog posts.
+The old site's stale Zeeshan Khan template files and the reference author's personal posts, photo, publications, analytics IDs, quote, social accounts, and CV have been omitted. LISA uses the supplied publication thumbnail; entries without supplied figures retain venue badges without unrelated images. The blog navigation item is omitted because the current site has no blog posts.
 
 The old PDF link (`/cv/alokendu_resume_CV.pdf`) returned HTTP 404 and no corresponding PDF exists in the repository. The CV page shows the available content without a broken download button. Add your actual PDF under `assets/pdf/` and set `cv_pdf` in `_pages/cv.md` to enable it.
 
@@ -55,4 +55,4 @@ The Gemfile skips MiniRacer on native Windows, includes Windows timezone data, a
 
 ## Verification in this workspace
 
-The full production Jekyll build succeeds with Jekyll 4.3.4 and generates the stylesheet, responsive portrait images, bibliography, news, CV, teaching, projects, and research map. All eight main preview routes return HTTP 200, all internal page and asset paths resolve, and the generated publications page contains all 10 published entries. YAML configuration, front matter, BibTeX, and the adapted visualization JavaScript were also validated. The running preview serves Jekyll's generated output from `_site`.
+The full production Jekyll build succeeds with Jekyll 4.3.4 and generates the stylesheet, responsive images, bibliography, news, CV, teaching, projects, and research map. All eight main preview routes return HTTP 200, all internal page and asset paths resolve, and the generated publications page contains all 11 published entries. YAML configuration, front matter, BibTeX, and the adapted visualization JavaScript were also validated. The running preview serves Jekyll's generated output from `_site`.
