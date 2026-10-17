@@ -1,0 +1,8 @@
+{% if site.data.research_in_progress.size > 0 %}
+<h2>under review &amp; work in progress</h2>
+<div class="publications"><ol class="bibliography">
+{% for work in site.data.research_in_progress %}
+<li><div class="row"><div class="col col-sm-3 abbr"><abbr class="badge rounded w-100">{{ work.status }}</abbr></div><div class="col-sm-8"><div class="title">{{ work.title }}</div><div class="author">{{ work.authors }}</div><div class="periodical">{{ work.area }}</div></div></div></li>
+{% endfor %}
+</ol></div>
+{% endif %}

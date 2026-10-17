@@ -1,0 +1,110 @@
+[
+  {
+    "title": "General Information",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Full Name",
+        "value": "Alokendu Mazumder"
+      },
+      {
+        "name": "Position",
+        "value": "Senior Researcher, Fujitsu Research of India"
+      },
+      {
+        "name": "Email",
+        "value": "<a href=\"mailto:alokendum@iisc.ac.in\">alokendum@iisc.ac.in</a>"
+      },
+      {
+        "name": "Phone",
+        "value": "+91 70434 54680"
+      }
+    ]
+  },
+  {
+    "title": "Education",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "PhD — Stochastic Optimization & Deep Representation Learning",
+        "institution": "Indian Institute of Science, Bengaluru",
+        "year": "2021 – Present",
+        "description": [
+          "Advisor: Dr. Punit Rathore · CGPA: 8.70/10.0 · Expected: July 2026",
+          "Funded by the Prime Minister's Research Fellowship (PMRF)"
+        ]
+      },
+      {
+        "title": "M.Tech — Computer Science & Engineering (Data Science)",
+        "institution": "Indian Institute of Technology Jammu",
+        "year": "2019 – 2021",
+        "description": [
+          "Thesis: Eigenspace Based Anomaly Detection in Dynamic Graphs · CGPA: 9.02/10.0",
+          "Advisor: Dr. Satyadev Ahlawat"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research Experience",
+    "type": "time_table",
+    "contents": [
+      {
+        "title": "Senior Researcher",
+        "institution": "Fujitsu Research of India · Security Science Laboratory",
+        "year": "2026 – Present",
+        "description": []
+      },
+      {
+        "title": "Visiting Researcher",
+        "institution": "MIT Senseable City Lab",
+        "year": "Summer 2025",
+        "description": [
+          "Supported by the MIT International Science & Technology Initiative (MIT-MISTI) grant."
+        ]
+      },
+      {
+        "title": "Research Intern",
+        "institution": "Dolby Laboratories · Advanced Technology Group",
+        "year": "Jan 2025",
+        "description": [
+          "Diffusion bridge models for image deblurring and dehazing."
+        ]
+      },
+      {
+        "title": "AI Research Intern",
+        "institution": "IBM Research, Bengaluru",
+        "year": "May 2024",
+        "description": [
+          "Context-length bias in time-series forecasting models."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Awards & Honours",
+    "type": "list",
+    "contents": [
+      "Prime Minister's Research Fellowship — Ministry of Education, Govt. of India · August 2022 cycle · One of India's most prestigious doctoral fellowships.",
+      "MIT International Science & Technology Initiative Grant — Joined MIT Senseable City Lab as visiting researcher, Summer 2025."
+    ]
+  },
+  {
+    "title": "Technical Skills",
+    "type": "map",
+    "contents": [
+      {
+        "name": "Languages",
+        "value": "Python · C++"
+      },
+      {
+        "name": "Frameworks & Tools",
+        "value": "PyTorch · TensorFlow · OpenCV · Scikit-learn · Pandas · Flask · LaTeX"
+      },
+      {
+        "name": "Domains",
+        "value": "Optimization Theory · Deep Learning Theory · Stochastic Modelling · Image Processing · Computer Vision"
+      }
+    ]
+  }
+]
